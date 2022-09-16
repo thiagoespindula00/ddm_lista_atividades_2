@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppIMC</string>
+    <string name="peso_kg">Peso(Kg)</string>
+    <string name="altura_m">Altura(m)</string>
+    <string name="digite_o_peso">Digite o peso</string>
+    <string name="digite_a_altura">Digite a altura</string>
+    <string name="calculadora_imc">Calculadora IMC</string>
+    <string name="calcular">Calcular</string>
+    <string name="nome">Nome</string>
+    <string name="imc">IMC</string>
+    <string name="digite_o_nome">Digite o nome</string>
+</resources>
