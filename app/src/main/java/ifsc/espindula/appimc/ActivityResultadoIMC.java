@@ -1,4 +1,4 @@
-package com.example.appimc;
+package ifsc.espindula.appimc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,10 +6,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.math.RoundingMode;
-import java.text.DecimalFormat;
-import java.text.Format;
-import java.util.Formatter;
+import com.example.appimc.R;
 
 public class ActivityResultadoIMC extends AppCompatActivity {
 

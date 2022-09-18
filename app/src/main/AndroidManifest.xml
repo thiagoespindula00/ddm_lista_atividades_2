@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppIMC">
         <activity
-            android:name=".ActivityResultadoIMC"
+            android:name="ifsc.espindula.appimc.ActivityResultadoIMC"
             android:exported="false" />
         <activity
-            android:name=".ActivityInicial"
+            android:name="ifsc.espindula.appimc.ActivityInicial"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

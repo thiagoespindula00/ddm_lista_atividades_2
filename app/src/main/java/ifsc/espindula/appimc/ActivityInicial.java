@@ -1,5 +1,5 @@
 
-package com.example.appimc;
+package ifsc.espindula.appimc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,8 +7,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.example.appimc.R;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

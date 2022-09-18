@@ -1,4 +1,4 @@
-package com.example.appimc;
+package ifsc.espindula.appimc;
 
 import android.content.Context;
 
