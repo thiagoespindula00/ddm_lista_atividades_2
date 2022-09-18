@@ -39,5 +39,20 @@ public class ActivityResultadoIMC extends AppCompatActivity {
         textViewPeso.setText(Double.toString(peso));
         textViewAltura.setText(Double.toString(altura));
         textViewImc.setText(Double.toString(imc));
+
+        int idImagem = R.drawable.abaixopeso;
+
+        if (imc >= 18.5 && imc <= 24.9)
+            idImagem = R.drawable.normal;
+        else if (imc >= 25 && imc <= 29.9)
+            idImagem = R.drawable.sobrepeso;
+        else if (imc >= 30 && imc <= 34.9)
+            idImagem = R.drawable.obesidade1;
+        else if (imc >= 35 && imc <= 39.9)
+            idImagem = R.drawable.obesidade2;
+        else if (imc >= 40)
+            idImagem = R.drawable.obesidade3;
+
+        imageViewResultado.setImageResource(idImagem);
     }
 }
